@@ -1,0 +1,10 @@
+import urllib.requests
+
+urllib.request.urlretrieve(url,path,download_p)
+"""
+- url为请求下载的地址
+- path为保存路径,后面可以加格式:根目录 + 文件名 + ".文件类型(如.jpg)"
+- download_p通过和sys.stdout配合显示下载进程
+- download_p为自定义函数,含有三个参数(block_size, block_num, total_size)
+
+"""
